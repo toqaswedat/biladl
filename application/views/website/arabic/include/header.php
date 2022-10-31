@@ -111,7 +111,7 @@
 
 
 <header class="header hederMopile row ">
-  <div class="col">
+  <div class="col-6">
   <input class="menu-btn" type="checkbox" id="menu-btn" />
   <label class="menu-icon" for="menu-btn"><span class="navicon text-light"></span></label>
   <ul class="menu ">
@@ -141,12 +141,12 @@
       </li>
   </ul>
   </div>
-  <div class="col d-flex justify-content-between">
+  <div class="col-2 d-flex justify-content-between">
     <a class="text-light pt-4" href="<?=base_url('#');?>"><i class="fa fa-search icon-style"></i></a>
     <a href="<?=base_url('');?>" class="text-light font-weight-light pt-4">EN</a>
   </div>
-  <div class="col">
-    <a class="navbar-brand logo" href="<?=base_url('arabic/');?>"><img  src="<?=base_url('assets/website/arabic/');?>img/logo.png" alt=""></a>
+  <div class="col-4">
+    <a class="navbar-brand " href="<?=base_url('arabic/');?>"><img  src="<?=base_url('assets/website/arabic/');?>img/logo.png" alt=""></a>
   </div>
 </header>
 </body>

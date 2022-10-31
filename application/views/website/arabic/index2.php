@@ -32,8 +32,8 @@
 
 
 <!-- <section class="row-2 pb-5 home-section-top">  -->
-<!-- <section class="row-2 pb-5 home-section-top" style="background-image:src='<?=base_url('assets/website/');?>img/slider/sliderNew.jpg';">  -->
-<section class="row-2 pb-5 home-section-top" style="background-image:url('http://localhost:8000/assets/website/arabic/img/PropertyDefault.svg'); background-position: center center;"> 
+
+<section class="row-2 pb-5 home-section-top" style="background-image:url('https://magical-brown.65-108-72-55.plesk.page/assets/website/arabic/img/PropertyDefault.svg'); background-position: center center;"> 
 
 <div class="row d-flex align-items-center ">
   <div class="col-sm-4" >
@@ -209,7 +209,7 @@
 
     <div class="col-sm-4  text-center  ">
     <div class="border text-center h-100 pb-5 w-75 "    > 
-        <div style="background-image:url('http://localhost:8000/assets/website/arabic/img/style1.svg');  background-size: cover; background-repeat: no-repeat; height:190px;">
+        <div style="background-image:url('https://magical-brown.65-108-72-55.plesk.page/assets/website/arabic/img/style1.svg');  background-size: cover; background-repeat: no-repeat; height:190px;">
           <h1 class="pt-5 text-warning" >49.00</h1> 
           <p class="price-quality text-warning">ريال / شهر</p>
         </div>
@@ -231,7 +231,7 @@
 
     <div class="col-sm-4  text-center ">
     <div class="border text-center h-100 w-75 pb-5" > 
-    <div style="background-image:url('http://localhost:8000/assets/website/arabic/img/style2.svg');  background-size: cover; background-repeat: no-repeat; height:190px;">
+    <div style="background-image:url('https://magical-brown.65-108-72-55.plesk.page/assets/website/arabic/img/style2.svg');  background-size: cover; background-repeat: no-repeat; height:190px;">
       <h1 class="pt-5 text-warning" >149.00</h1> 
       <p class="price-quality text-warning">ريال / شهر</p>
     </div>
@@ -250,7 +250,7 @@
 
       <div class="col-sm-4  text-center  ">
     <div class="border text-center h-100 pb-5 w-75" >
-    <div style="background-image:url('http://localhost:8000/assets/website/arabic/img/style3.svg');  background-size: cover; background-repeat: no-repeat; height:190px;"> 
+    <div style="background-image:url('https://magical-brown.65-108-72-55.plesk.page/assets/website/arabic/img/style3.svg');  background-size: cover; background-repeat: no-repeat; height:190px;"> 
       <h1 class="pt-5 text-secondary" >249.00</h1> 
       <p class="price-quality text-secondary">ريال / شهر</p>
     </div>
@@ -268,7 +268,7 @@
       </div>
 </section>
 
-<section class="row pt-5 pb-5 " style="background-image:url('http://localhost:8000/assets/website/arabic/img/appwithmobilebg.svg');  background-size: cover; background-repeat: no-repeat; height:850px;;">
+<section class="row pt-5 pb-5 " style="background-image:url('https://magical-brown.65-108-72-55.plesk.page/assets/website/arabic/img/appwithmobilebg.svg');  background-size: cover; background-repeat: no-repeat; height:850px;;">
   <div class="col-md-3 col-sm-6 col-xs-12 justify-content-end  list-group list-unstyled pr-5 pb-5 ">
     <Li class="text-light pb-3"><img  class='pl-3 pr-5' src="<?=base_url('assets/website/arabic/');?>img/login.svg" />
     تسجيل الدخول الي بالعدل    
