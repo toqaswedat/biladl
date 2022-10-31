@@ -33,7 +33,7 @@
         <a class="navbar-brand logo" href="<?=base_url('');?>"><img  src="<?=base_url('assets/website/arabic/');?>img/googleplay.svg" alt="google play"></a>
       </div>
 
-      <div class="col-2">
+      <div class="col-3">
         <h4>روابط قد تهمك</h4>
         <ul class="menu lh-1 footerMenu1">
         <li class="col pr-0"><a href="<?=base_url();?>arabic/Pages/about_us/">عن بالعدل</a></li>
@@ -58,7 +58,7 @@
 
       <div class="col-2">
         <h4>اتصل بنا</h4>
-        <ul class="menu ">
+        <ul class="menu p-1">
         <a  href="<?=base_url('');?>"><img class="p-xl-4" src="<?=base_url('assets/website/arabic/');?>img/phoneFooter.svg" alt="phone"></a>
         <a href="<?=base_url('');?>"><img class="p-xl-4"  src="<?=base_url('assets/website/arabic/');?>img/chat.svg" alt="chat"></a>
         <h4>  التواصل الاجتماعي </h4>
@@ -73,7 +73,7 @@
 
       
 
-      <div class="col-2">
+      <div class="col-1">
         <h4 class="list-inline-item  pt-0">تنويه</h4>
         <a  href="<?=base_url('');?>"><img class="p-xl-4" src="<?=base_url('assets/website/arabic/');?>img/Vector.svg" alt="phone"></a>
       </div>
