@@ -89,22 +89,14 @@
     <script type="text/javascript" src="<?=base_url();?>assets/website/js/jquery-min.js"></script> 
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <style type="text/css">
-
-        .form-error{
-
-            color: red;
-
-        }
-
     </style>
-
-    
-
   </head>
+  <body> 
+    
+  
 
 
-
-  <body>  
+  
 
 <div class="header">
 
@@ -112,187 +104,45 @@
 
     <div class="logo-menu">
 
-    <nav class="navbar navbar-default pos-relative affix" role="navigation" data-spy="affix" data-offset-top="50">
-
-    <div class="container">
-
-<div class="row">
-
-<div class="navbar-header">
-
-<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-
-<span class="sr-only">Toggle navigation</span>
-
-<span class="icon-bar"></span>
-
-<span class="icon-bar"></span>
-
-<span class="icon-bar"></span>
-
-</button>
-
-<a class="navbar-brand logo" href="<?=base_url('arabic/');?>"><img  src="<?=base_url('assets/website/arabic/');?>img/logo.png" alt=""></a>
-
-</div>
-
-<!-- 
-
-<a class="search-button pull-left
-
-" href="javascript:void(0);"><i class="fa fa-search"></i></a>
-
-
-
-<div class="search-box pull-right">
-
-<div class="container pos-relative">
-
-<input type="text" class="form-control" placeholder="Search" />
-
-<a class="close-search" href="javascript:void(0);"><i class="fa fa-times"></i></a>
-
-</div>
-
-</div> -->
-
- <ul class="pull-left "><li><a href="<?=base_url('');?>" class="language-list"><i class="ti-globle"></i>English</a></li></ul>
-
-<div class="collapse navbar-collapse" id="navbar">
-
-
-
-<ul class="nav navbar-nav pull-left">
-
-<!--   <li><a class="active" href="<?=base_url('arabic/');?>">صفحة الرئيسية</a></li>
-
-  <li><a href="about.html">الأعضاء</a></li>
-
-  <li><a href="lawyers.html">محام</a></li>
-
-  <li><a href="#">متدرب</a></li>
-
-  <li><a href="about.html">عن الموقع</a></li>
-
-  <li><a href="#">الاتصال بنا</a></li>
-
-  <li class="right border"><a href="login.html"><i class="ti-lock"></i> تسجيل الدخول</a></li> -->
-
-
-
-                        <li><a class="active" href="<?=base_url('arabic/');?>">الصفحة
-
-                        الرئيسية</a></li> <!-- <li>
-
-                          <a href="<?=base_url('arabic/Pages/lawyers');?>">المحامية</a>
-
-                          </li> --> <?php
-
-                        if($this->session->has_userdata('user_logged_in')): ?>
-
-                        <li><a
-
-                        href="<?=base_url('arabic/Login/call_router/');?>">لوحة
-
-                        القيادة</a></li> <li class="right border"><a
-
-                        href="<?=base_url();?>arabic/Login/is_logged_out_all/"><i
-
-                        class="ti-lock"></i> الخروج</a></li> <?php else: ?>
-
-                        <!-- <li><a href="<?=base_url('arabic/Login/Login_as_register_memb
-
-                        er');?>">عضو</a></li> <li><a href="<?=base_url('Log
-
-                        in/Login_as_register_trainee');?>">المتدرب شبه القانوني</a></li> --> <li class="right border"><a
-
-                        href="<?=base_url();?>arabic/Login/member_normal_login/"><i
-
-                        class="ti-unlock"></i> تسجيل الدخول / تسجيل</a></li>
-
-                        <li class="right border"><a href="<?=base_url();?>arabic/Pages/member_plans"> خدمات </a></li>
-
-                        <?php endif; ?>
-
-                        <li><a
-
-                        href="<?=base_url('arabic/Pages/biladl');?>"> بلادل  </a></li>
-
-                         <li><a
-
-                        href="<?=base_url('arabic/Pages/about_us');?>">معلومات عنا</a></li> <li><a href="<?=base_url('arabic/Pages/contact_us');?>">اتصل بنا</a></li>
-
-
-
-
-
-</ul>
-
-</div>
-
-</div>
-
-</div>
-
-
-
-
-
-
-
+<nav class="navbar navbar-default pos-relative affix" role="navigation" data-spy="affix" data-offset-top="50">
+
+  <div class="container">
+    <div class="row">
+      <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand logo" href="<?=base_url('arabic/');?>"><img  src="<?=base_url('assets/website/arabic/');?>img/logo.png" alt=""></a>
+      </div>
+
+      <ul class="pull-left ">
+        <li><a href="<?=base_url('');?>" class="language-list"><i class="ti-globle"></i>English</a></li>
+      </ul>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="nav navbar-nav pull-left">
+          <li><a class="active" href="<?=base_url('arabic/');?>">الصفحة الرئيسية</a></li>
+          <li class="right border"><a href="<?=base_url();?>arabic/Login/member_normal_login/"><i class="ti-unlock"></i> تسجيل الدخول / تسجيل</a></li>
+          <li class="right border"><a href="<?=base_url();?>arabic/Pages/member_plans"> خدمات </a></li>
+          <li><a href="<?=base_url('arabic/Pages/biladl');?>"> بلادل  </a></li>
+          <li><a href="<?=base_url('arabic/Pages/about_us');?>">معلومات عنا</a></li> 
+          <li><a href="<?=base_url('arabic/Pages/contact_us');?>">اتصل بنا</a></li>
+        </ul>
+      </div>
+    </div>
+  
+  </div>
     <ul class="wpb-mobile-menu">
-
-                       <li><a class="active" href="<?=base_url('arabic/');?>">الصفحة
-
-                        الرئيسية</a></li> <!-- <li>
-
-                          <a href="<?=base_url('araabic/Pages/lawyers');?>">المحامية</a>
-
-                          </li> --> <?php
-
-                        if($this->session->has_userdata('user_logged_in')): ?>
-
-                        <li><a
-
-                        href="<?=base_url('arabic/Login/call_router/');?>">لوحة
-
-                        القيادة</a></li> <li class="right border"><a
-
-                        href="<?=base_url();?>arabic/Login/is_logged_out_all/"><i
-
-                        class="ti-lock"></i> الخروج</a></li> <?php else: ?>
-
-                        <!-- <li><a href="<?=base_url('arabic/Login/Login_as_register_memb
-
-                        er');?>">عضو</a></li> <li><a href="<?=base_url('Log
-
-                        in/Login_as_register_trainee');?>">المتدرب شبه القانوني</a></li> --> <li class="right border"><a
-
-                        href="<?=base_url();?>arabic/Login/member_normal_login/"><i
-
-                        class="ti-unlock"></i> تسجيل الدخول / تسجيل</a></li>
-
-                        <?php endif; ?>
-
-                        <li><a
-
-                        href="<?=base_url('arabic/Pages/biladl');?>"> بلادل  </a></li>
-
-                         <li><a
-
-                        href="<?=base_url('arabic/Pages/about_us');?>">معلومات عنا</a></li> <li><a id="Contact" 
-
-                        href="#">اتصل بنا</a></li>
-
+      <li><a class="active" href="<?=base_url('arabic/');?>">الصفحة الرئيسية</a></li> 
+      <li class="right border"><a href="<?=base_url();?>arabic/Login/member_normal_login/"><i class="ti-unlock"></i> تسجيل الدخول / تسجيل</a></li>
+      <li><a href="<?=base_url('arabic/Pages/biladl');?>"> بلادل  </a></li>
+      <li><a href="<?=base_url('arabic/Pages/about_us');?>">معلومات عنا</a></li> 
+      <li><a id="Contact" href="#">اتصل بنا</a></li>
     </ul>
 
-    <!--<ul class="visible-xs mobile-login">
-
-    <li><a href="#"><i class="ti-user"></i></a></li>
-
-    </ul>-->
-
-    </nav>
+</nav>
 
     </div>
 
@@ -309,38 +159,6 @@
       <!-- Header Section End -->  
 
       <style type="text/css">
-
-          /*.error
-
-          {
-
-            color :red;
-
-
-
-          }*/
-
-
-
-      .error {
-
-          color :red;
-
-          -webkit-animation: seconds 1.0s forwards;
-
-          -webkit-animation-iteration-count: 1;
-
-          -webkit-animation-delay: 2s;
-
-          animation: seconds 1.0s forwards;
-
-          animation-iteration-count: 1;
-
-          animation-delay: 2s;
-
-          position: relative;
-
-        }
 
 
 
@@ -384,32 +202,6 @@
 
         }
 
-
-
-
-
-      .form-error {
-
-            color :red;
-
-          -webkit-animation: seconds 1.0s forwards;
-
-          -webkit-animation-iteration-count: 1;
-
-          -webkit-animation-delay: 10s;
-
-          animation: seconds 1.0s forwards;
-
-          animation-iteration-count: 1;
-
-          animation-delay: 5s;
-
-          position: relative;
-
-        }
-
-
-
        .alert {
 
            color :black;
@@ -429,25 +221,19 @@
           position: relative;
 
       }
-
-
-
-
-
         .pagination li{
 
           cursor: pointer;
 
         }
-
-
-
-
-
-
-
       </style>
- 
+
+
+
+
+
+
+
 <script>
   
   $("#Contact").click(function() {
