@@ -47,25 +47,11 @@
 
     <link rel="stylesheet" href="<?=base_url('assets/website/arabic/');?>css/main.css" type="text/css">
     <link rel="stylesheet" href="<?=base_url('assets/website/arabic/');?>css/customCSS.css" type="text/css">
-
-    <!-- Slicknav js -->
-
-    <link rel="stylesheet" href="<?=base_url('assets/website/arabic/');?>css/slicknav.css" type="text/css">
-
-    <!-- Responsive CSS Styles -->
-
-    <link rel="stylesheet" href="<?=base_url('assets/website/arabic/');?>css/responsive.css" type="text/css">
-
-
-
-     <link href="<?=base_url();?>assets/website/arabic/css/user-profile.css" rel="stylesheet" type="text/css" />
-
-  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="<?=base_url();?>assets/website/arabic/css/user-profile.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
     <!-- Color CSS Styles  -->
-    <link rel="stylesheet" type="text/css" href="<?=base_url('assets/website/arabic/');?>css/colors/red.css" media="screen" />
     <script type="text/javascript" src="<?=base_url();?>assets/website/js/jquery-min.js"></script> 
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   </head>

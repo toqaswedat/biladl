@@ -478,8 +478,8 @@ class Pages extends CI_Controller {
 	{		
 		 $data['title'] = "  اتصل بنا - لادل  ";
 		 $this->load->view('website/arabic/include/header.php', $data);
-		//  $this->load->view('website/arabic/index2.php', $data);
-		//  $this->load->view('website/arabic/include/footer.php', $data);
+		 $this->load->view('website/arabic/index2.php', $data);
+		 $this->load->view('website/arabic/include/footer.php', $data);
 	}
 	public function privacy_policy()
 	{		
