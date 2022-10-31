@@ -163,6 +163,9 @@
     <a class="navbar-brand logo" href="<?=base_url('arabic/');?>"><img  src="<?=base_url('assets/website/arabic/');?>img/logo.png" alt=""></a>
   </div>
 </header>
+</body>
+</html>
+
 
 
 
