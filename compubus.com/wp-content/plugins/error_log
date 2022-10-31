@@ -1,0 +1,4 @@
+[10-Jul-2021 14:40:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/wjd7ivbyuiyu/public_html/compubus.com/wp-content/plugins/hello.php:69
+Stack trace:
+#0 {main}
+  thrown in /home/wjd7ivbyuiyu/public_html/compubus.com/wp-content/plugins/hello.php on line 69

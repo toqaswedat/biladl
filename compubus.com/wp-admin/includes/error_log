@@ -1,0 +1,8 @@
+[27-Oct-2021 21:28:52 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_List_Table' not found in /home/wjd7ivbyuiyu/public_html/compubus.com/wp-admin/includes/class-wp-comments-list-table.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/wjd7ivbyuiyu/public_html/compubus.com/wp-admin/includes/class-wp-comments-list-table.php on line 18
+[29-Oct-2021 16:07:43 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Filesystem_Base' not found in /home/wjd7ivbyuiyu/public_html/compubus.com/wp-admin/includes/class-wp-filesystem-ftpsockets.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/wjd7ivbyuiyu/public_html/compubus.com/wp-admin/includes/class-wp-filesystem-ftpsockets.php on line 16
