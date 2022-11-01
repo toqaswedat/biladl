@@ -184,6 +184,9 @@
     .navhomeheder{
         display: none !important;
     }
+    .footerMenu1{
+      line-height: 1.5 !important;
+    }
   }
   
 
@@ -214,9 +217,21 @@
 }
 
 
-@media only screen and (max-width: 575) {
-    .serverHome{
-        border: 2px solid red;
-
+@media(max-width: 575px) {
+    .footerLogo{
+        /* border: 2px solid red !important; */
+        flex: 0 0 72.666667%;
+        max-width: 67.666667%;
     }
+    .footercol2{
+      flex: 0 0 31.666667%;
+      max-width: 28.666667%;
+    }
+}
+
+
+@media(max-width: 768px) {
+  .footerLogo a{
+    position: unset !important;
+  }
 }

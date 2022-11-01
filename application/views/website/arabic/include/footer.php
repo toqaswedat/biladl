@@ -20,12 +20,14 @@
 <footer>
 
   <section class="footer-Content p-5">
-    <div class="row p-xl-1 pr-xl-5">
+    <!-- <div class="row p-xl-1 pr-xl-5">
       <a class="navbar-brand logo pr-xl-5" href="<?=base_url('arabic/');?>"><img  src="<?=base_url('assets/website/arabic/');?>img/logo.png" alt=""></a>
-    </div>
+    </div> -->
     <div class="row p-xl-1 pr-xl-5">
 
-      <div class="col-4 mt-3 pr-xl-5 ">
+      <div class="col-5 mt-3 pr-xl-5 footerLogo">
+      <a class="navbar-brand logo pr-xl-5" href="<?=base_url('arabic/');?>"><img  src="<?=base_url('assets/website/arabic/');?>img/logo.png" alt=""></a>
+
         <p class="pb-xl-5">بوابة قانونية متعاونة مع احدى اكبر مكاتب المحاماة <br>والاستشارات الشرعية والقانوني في جدة بالمملكة العربية <br>السعودية حتى تكون الممثل القانوني الرائد في منطقة الشرق <br> الأوسط وشمال افريقيا.</p>
         <br>
         <h2 class="text-warning">تطبيق بالعدل</h2>
@@ -33,7 +35,7 @@
         <a class="navbar-brand logo" href="<?=base_url('');?>"><img  src="<?=base_url('assets/website/arabic/');?>img/googleplay.svg" alt="google play"></a>
       </div>
 
-      <div class="col-3">
+      <div class="col-2 footercol2">
         <h4>روابط قد تهمك</h4>
         <ul class="menu lh-1 footerMenu1">
         <li class="col pr-0"><a href="<?=base_url();?>arabic/Pages/about_us/">عن بالعدل</a></li>
@@ -45,7 +47,7 @@
         </ul>
       </div>
 
-      <div class="col-2">
+      <div class="col-2 footercol2">
         <h4>اقرأ أيضاً</h4>
         <ul class="menu footerMenu1 ">
         <li class="col pr-0"><a href="<?=base_url();?>arabic/Pages/about_us/">أخبارنا </a></li>
@@ -56,7 +58,7 @@
         </ul>
       </div>
 
-      <div class="col-2">
+      <div class="col-2 footercol2">
         <h4>اتصل بنا</h4>
         <ul class="menu p-1">
         <a  href="<?=base_url('');?>"><img class="p-xl-4" src="<?=base_url('assets/website/arabic/');?>img/phoneFooter.svg" alt="phone"></a>

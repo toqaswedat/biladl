@@ -317,7 +317,7 @@
 </section>
 
 
-<section class="row pt-5 d-flex align-items-center justify-content-center">
+<section class=" pt-5 d-flex align-items-center justify-content-center">
       <div class="col-sm-5 text-left">
           <img  class='' src="<?=base_url('assets/website/arabic/');?>img/Rectangle18.svg" />
       </div>
