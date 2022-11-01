@@ -1,3 +1,93 @@
+<!-- <section class="row-2 pb-5 home-section-top" style="background-image:url('https://magical-brown.65-108-72-55.plesk.page/assets/website/arabic/img/PropertyDefault.svg'); background-position: center center;"> 
+<div class="row d-flex align-items-center ">
+<div class="col-sm-4" >  
+<div class="tickets-container">
+<div class="item">
+    <div class="item-left">
+        <div class="penis">
+            <ul class="slides">
+                <input type="radio" name="radio-btn" id="img-1" checked />
+                <li class="slide-container">
+                    <div class="slide">
+                      <img  src="<?=base_url('assets/website/');?>img/slider/sliderNew.jpg" onClick="window.location.href='<?=base_url('arabic/Login/member_normal_login/');?>'" />
+                    </div>
+                    <div class="nav">
+                        <label for="img-6" class="prev">&#x2039;</label>
+                        <label for="img-2" class="next">&#x203a;</label>
+                    </div>
+                </li>
+            
+                <input type="radio" name="radio-btn" id="img-2" />
+                <li class="slide-container">
+                    <div class="slide">
+                      <img  src="<?=base_url('assets/website/');?>img/slider/sliderNew.jpg" onClick="window.location.href='<?=base_url('arabic/Login/member_normal_login/');?>'" />
+                    </div>
+                    <div class="nav">
+                        <label for="img-1" class="prev">&#x2039;</label>
+                        <label for="img-3" class="next">&#x203a;</label>
+                    </div>
+                </li>
+            
+                <input type="radio" name="radio-btn" id="img-3" />
+                <li class="slide-container">
+                    <div class="slide">
+                      <img  src="<?=base_url('assets/website/');?>img/slider/sliderNew.jpg" onClick="window.location.href='<?=base_url('arabic/Login/member_normal_login/');?>'" />
+                    </div>
+                    <div class="nav">
+                        <label for="img-2" class="prev">&#x2039;</label>
+                        <label for="img-4" class="next">&#x203a;</label>
+                    </div>
+                </li>
+                <li class="nav-dots">
+                    <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+                    <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+                    <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+                </li>
+            </ul>
+        </div>
+    </div> -->
+    </div> <!-- end item-left -->
+</div> <!-- end item -->
+<!-- </div>  
+</div>
+<div class="col-sm-1">  
+    <div class="row-1">
+      <div class="icon ">
+      <img  class='img_home_section' src="<?=base_url('assets/website/arabic/');?>img/icons/chatwithus.svg" />
+      </div>
+      <h6>اتصل بنا</h6><br><br>
+      </a>
+    </div>
+    <div class="row-1">
+      <div class="icon">
+      <img class='img_home_section' src="<?=base_url('assets/website/arabic/');?>img/icons/chat-with-us.svg" />
+      </div>
+      <h6>تحدث معنا</h6><br><br>
+      </a>
+    </div>
+    <div class="row-1">
+      <div class="icon">
+      <img class='img_home_section' src="<?=base_url('assets/website/arabic/');?>img/icons/advice.svg" />
+      </div>
+      <h6>نصيحة قانونية</h6><br><br>
+      </a>
+    </div>
+  </div>
+
+
+  <div class="col-md-6 col-sm-12 col-xs-12 ">
+    <div >
+      <h1 class="row-5">احصل معنا علي نصيحة قانونية</h1>
+      <p class="row-2 pt-3">بالعدل هنا لتساعدك في الحصول علي استشارة قانونية موثوقة لحل أي  <br>مشكلة أو موقف قانوني مثل مشاكل في العمل, الأحوال الشخصية, العمل <br>ولمشاكل التجارية مثل الايجارات أو أي موقف قانوني آخر يمكن للمحامي حله.</p>
+      <button class="bg-dark font-weight-bold text-light datepicker w-25 mt-5">انضم الآن</button>
+    </div>
+  </div>
+
+</div>
+</section> -->
+
+
+
 <!-- <?php $paged_news=array(1,2,3,4,5,6)?> -->
 <!-- <section id="blog" class="section news">
   <div class="container">
@@ -126,17 +216,17 @@
 </section>
 
 
-<section class="row pt-5 justify-content-center align-items-center pb-5">
-  <div class="col-md-7 col-sm-5 col-xs-12  pr-xl-5">
+<section class="row pt-5 justify-content-center align-items-center pb-5 ">
+  <div class=" col-5   pr-xl-5 aboutHomePage order-sm-1">
       <div class="pr-xl-5 ">
         <h1 class="row-5 "><u class="undellineHome"> عن</u> بالعدل</h1>
         <p class="row- pt-3">
         بالعدل هي بوابة قانونية متعاونة مع احدى اكبر مكاتب المحاماة والاستشارات الشرعية <br>والقانوني في جدة بالمملكة العربية السعودية حتى تكون الممثل القانوني الرائد في <br>منطقة الشرق الأوسط وشمال افريقيا. يتكون الممثل القانوني ل(بالعدل) من فريق ذو<br> كفاءة عالية مختارين بعناية ولديهم خلفيات علمية متنوعة حتى يتمكن بالعدل من اعطاء <br>المشورة القانوينة بناء على مستوى عالي من الخبرة. 
         </p>
-        <button class="bg-dark font-weight-bold text-light datepicker w-25 mt-5"> معرفة المزيد</button>
+        <button class="bg-dark font-weight-bold text-light datepicker w-25 mt-5 moreaboutHome"> معرفة المزيد</button>
       </div>
   </div>
-  <div class="col-sm-4">
+  <div class="col-4 aboutHomeImge order-sm-2">
     <img  class='' src="<?=base_url('assets/website/arabic/');?>img/Rectangle.svg" />
   </div>
 </section>
@@ -164,13 +254,13 @@
 
 
   <div class="row mr-5 ml-5 pt-5 " >
-    <div class="col-sm-3 " >    
+    <div class="col-sm-3 serverHome" >    
       <img  class='' src="<?=base_url('assets/website/arabic/');?>img/civil.svg" />
-    </div>
-    <div class="col-sm-3" >    
+    </div> 
+    <div class="col-sm-3 serverHome" >    
       <img  class='' src="<?=base_url('assets/website/arabic/');?>img/criminal.svg" />
     </div>
-    <div class="col-sm-3" >    
+    <div class="col-sm-3 serverHome" >    
       <img  class='' src="<?=base_url('assets/website/arabic/');?>img/workissues.svg" />
     </div>
     <div class="col-sm-3" >    
@@ -178,13 +268,13 @@
     </div>
   </div>
   <div class="row mr-5 ml-5 pt-5" >
-    <div class="col-sm-3 " >    
+    <div class="col-sm-3 serverHome" >    
       <img  class='' src="<?=base_url('assets/website/arabic/');?>img/court.svg" />
     </div>
-    <div class="col-sm-3" >    
+    <div class="col-sm-3 serverHome" >    
       <img  class='' src="<?=base_url('assets/website/arabic/');?>img/dept.svg" />
     </div>
-    <div class="col-sm-3" >    
+    <div class="col-sm-3 serverHome" >    
       <img  class='' src="<?=base_url('assets/website/arabic/');?>img/advices.svg" />
     </div>
     <div class="col-sm-3" >    
@@ -198,16 +288,16 @@
 
 
 
-<section class="row-4 pt-5 pb-5">
+<section class="row-4 pt-5 pb-5 planHome">
   <h1 class="text-center custom-control"><u class="pt-2 undellineHome">خطة</u> الدفع </h1>
   <p class="d-flex flex-column justify-content-center align-items-center text-center pt-5">تمنحك عضويتك حرية العيش بسلام حيث ينصحك مستشارونا القانونيون ويوجهونك<br> في جميع مسائل المعاملات القانونية اليومية والاستفادة من خدمات بالعدل.</p>
   
   
-  <div class="row d-flex align-items-center justify-content-center p-5 planHome" >
+  <div class="row d-flex align-items-center justify-content-center p-5 planHomesection" >
 
 
 
-    <div class="col-sm-4  text-center  ">
+    <div class="col-4  text-center  planeHomePage">
     <div class="border text-center h-100 pb-5 w-75 "    > 
         <div style="background-image:url('https://magical-brown.65-108-72-55.plesk.page/assets/website/arabic/img/style1.svg');  background-size: cover; background-repeat: no-repeat; height:190px;">
           <h1 class="pt-5 text-warning" >49.00</h1> 
@@ -229,7 +319,7 @@
 
 
 
-    <div class="col-sm-4  text-center ">
+    <div class="col-4  text-center planeHomePage">
     <div class="border text-center h-100 w-75 pb-5" > 
     <div style="background-image:url('https://magical-brown.65-108-72-55.plesk.page/assets/website/arabic/img/style2.svg');  background-size: cover; background-repeat: no-repeat; height:190px;">
       <h1 class="pt-5 text-warning" >149.00</h1> 
@@ -248,7 +338,7 @@
       </div>
       </div>
 
-      <div class="col-sm-4  text-center  ">
+      <div class="col-4  text-center planeHomePage ">
     <div class="border text-center h-100 pb-5 w-75" >
     <div style="background-image:url('https://magical-brown.65-108-72-55.plesk.page/assets/website/arabic/img/style3.svg');  background-size: cover; background-repeat: no-repeat; height:190px;"> 
       <h1 class="pt-5 text-secondary" >249.00</h1> 
@@ -268,8 +358,8 @@
       </div>
 </section>
 
-<section class="row pt-5 pb-5 " style="background-image:url('https://magical-brown.65-108-72-55.plesk.page/assets/website/arabic/img/appwithmobilebg.svg');  background-size: cover; background-repeat: no-repeat; height:850px;;">
-  <div class="col-md-3 col-sm-6 col-xs-12 justify-content-end  list-group list-unstyled pr-5 pb-5 ">
+<section class="row pt-5 pb-5 DownloadAPPHome" style="background-image:url('https://magical-brown.65-108-72-55.plesk.page/assets/website/arabic/img/appwithmobilebg.svg');  background-size: cover; background-repeat: no-repeat; height:850px;;">
+  <div class="col-md-3 col-sm-6  justify-content-end  list-group list-unstyled pr-5 pb-5 uploudAppsection2">
     <Li class="text-light pb-3"><img  class='pl-3 pr-5' src="<?=base_url('assets/website/arabic/');?>img/login.svg" />
     تسجيل الدخول الي بالعدل    
     </Li>
@@ -297,16 +387,16 @@
 
 
 
-<section class="row-4 pt-5 pb-5 " >
+<section class="row-3 pt-5 pb-5 " >
   <h1 class="text-center custom-control"><u class="pt-2 undellineHome">أحدث</u>  المقالات </h1>
   <div class="row mr-5 ml-5 pt-5" >
-    <div class="col-sm-4" >    
+    <div class="col-4" >    
       <img  class='' src="<?=base_url('assets/website/arabic/');?>img/Frame616.svg" />
     </div>
-    <div class="col-sm-4" >    
+    <div class="col-4" >    
       <img  class='' src="<?=base_url('assets/website/arabic/');?>img/Frame615.svg" />
     </div>
-    <div class="col-sm-4" >    
+    <div class="col-4" >    
       <img  class='' src="<?=base_url('assets/website/arabic/');?>img/Frame614.svg" />
     </div>
     </div>

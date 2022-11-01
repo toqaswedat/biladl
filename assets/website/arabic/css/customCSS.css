@@ -156,6 +156,10 @@
     top: 0;
   }
   
+
+
+
+  
   @media (min-width: 992px) {
     .header li {
       float: left;
@@ -178,6 +182,7 @@
         font-weight: 400 ;
         font-size:14px ;
     }
+
   }
 
   @media (max-width: 992px) {
@@ -185,10 +190,32 @@
         display: none !important;
     }
     .footerMenu1{
-      line-height: 1.5 !important;
+      line-height: 16px !important;
+    }
+    .planeHomePage{
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-top: 2em;
+    }
+    .planHome{
+      padding: 0 !important;
+      /* border: 2px solid red; */
+      width: 98%;
+      padding: 5% !important;
+    }
+    .planHomesection{
+      padding: 0 !important;
+
+    }
+    .planHome div ,.planHome div button{
+      width: 100% !important;
+
     }
   }
   
+
+
+
 
   @media only screen and (max-width: 1024px) {
     .hederHome ul li,.hederMopile{
@@ -200,7 +227,32 @@
   
   }
 
+@media(max-width:1194px){
+  .DownloadAPPHome{
+    background-image: none !important;
+    background-color: #000 !important;
+    height: 90% !important;
+    padding: 0 !important;
+    text-align: right;
+  }
+  .uploudApp ,.uploudAppsection2{
+    padding: 4% 0 !important;
+    justify-content: start !important;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .uploudApp div img{
+    /* border: 2px solid red; */
+    padding: 0 2px !important;
+    text-align: center !important;
 
+  }
+  .uploudApp div {
+    text-align: center !important;
+
+  }
+
+}
 
 
 @media only screen and (max-width: 333px) {
@@ -209,23 +261,46 @@
         padding-right: 10em !important;
         /* border: 2px solid red; */
     }
-
-        .serverHome{
-        border: 2px solid red;
-
-    }
 }
 
 
 @media(max-width: 575px) {
     .footerLogo{
         /* border: 2px solid red !important; */
-        flex: 0 0 72.666667%;
-        max-width: 67.666667%;
+        flex: 5 0 99.666667%;
+        max-width: 99.666667%;
     }
     .footercol2{
       flex: 0 0 31.666667%;
-      max-width: 28.666667%;
+      max-width: 27.666667%;
+
+    }
+    .footercol1{
+      flex: 0 0 17.333333%;
+    max-width: 15.333333%;
+    }
+    .aboutHomePage{
+      flex: 11 0 86.666667%;
+      max-width: 85.666667%;
+    }
+    .aboutHomeImge{
+      flex: 0 0 90.333333%;
+      max-width:85.333333%;
+      margin-top: 2em;
+    }
+    .serverHome{
+      /* border: 2px solid red; */
+      margin-bottom: 2em;
+      text-align: center;
+    }
+    .uploudApp{
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+    .uploudAppsection2{
+      padding-right: 20% !important;
+      flex: 0 0 100%;
+      max-width: 100%;
     }
 }
 
@@ -234,4 +309,224 @@
   .footerLogo a{
     position: unset !important;
   }
+  .moreaboutHome{
+    width: 75% !important;
+  }
+
 }
+
+
+
+.tickets-container {
+  margin: 0;
+  padding: 0;
+  border: 2px solid red;
+}
+
+.tickets-container .item {
+  width: 1050px;
+  height: 400px;
+}
+
+
+
+
+h4 {
+  margin-left: 10px;
+  margin-bottom: 0;
+  color: #999;
+}
+
+
+.ref {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  color: #999;
+  margin-bottom: 25px;
+
+}
+
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.day {
+  font-size: 12px;
+  width: 25%;
+}
+
+
+.meter {
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.buy {
+  display: flex;
+  justify-content: space-around;
+}
+
+.buy-button {
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 28px;
+  font-family: 'Poppins', sans-serif;
+  border: none;
+}
+
+
+
+.tickets-container .item-left {
+  width: 70%;
+  height: 100%;
+  border-left: 3px dotted #999;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} 
+
+.barcode {
+  margin-right: 40px;
+}
+
+
+
+
+.penis {
+  width: 100%;
+  height: 100%;
+}
+
+.slide-container {
+  width: 100%;
+  height: auto;
+}
+
+
+.slides {
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+}
+
+.slides * {
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+
+.slides input { display: none; }
+
+.slide-container { display: block; }
+
+.slide {
+  top: 0;
+  opacity: 0;
+  width: auto;
+  min-width: 600px;
+  height: 100%;
+  position: absolute;
+  transform: scale(0);
+  transition: all .7s ease-out;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  border-bottom-right-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.nav label {
+  width: 20%;
+  height: 60%;
+  display: none;
+  position: absolute;
+opacity: 0;
+  z-index: 9;
+  cursor: pointer;
+  transition: opacity .2s;
+  color: #FFF;
+  font-size: 80px;
+  text-align: center;
+  line-height: 380px;
+  font-family: "Varela Round", sans-serif;
+  background-color: none;
+  text-shadow: 0px 0px 15px rgb(119, 119, 119);
+}
+
+
+
+.slide:hover + .nav label { opacity: 0.5; }
+
+.nav label:hover { opacity: 1; }
+
+.nav .next { right: 0; }
+
+input:checked + .slide-container  .slide {
+  opacity: 1;
+
+  transform: scale(1);
+
+  transition: opacity .4s ease-in-out;
+}
+
+input:checked + .slide-container .nav label { display: block; }
+
+.nav-dots {
+width: 100%;
+  top: 310px;
+height: 11px;
+display: block;
+position: absolute;
+text-align: center;
+}
+
+.nav-dots .nav-dot {
+top: 60px;
+width: 11px;
+height: 11px;
+margin: 0 4px;
+position: relative;
+border-radius: 100%;
+display: inline-block;
+background-color: rgba(255, 255, 255, 0.6);
+}
+
+.nav-dots .nav-dot:hover {
+cursor: pointer;
+background-color: rgba(255, 255, 255, 0.8);
+}
+
+input#img-1:checked ~ .nav-dots label#img-dot-1,
+input#img-2:checked ~ .nav-dots label#img-dot-2,
+input#img-3:checked ~ .nav-dots label#img-dot-3{
+background: rgba(23, 35, 57, 0.8);
+}
+
+@media only screen and (max-width: 43rem) {
+  .tickets-container .item {
+  width: 100%;
+  margin-right: 20px
+}
+  div.tickets-container {
+      margin: 0 20px auto
+  }
+}
+
+

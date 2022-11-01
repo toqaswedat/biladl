@@ -1,25 +1,22 @@
-﻿<section class="row-6 pt-5 pb-5">
+﻿<section class=" pt-5 pb-5">
 <h3 class="text-center custom-control">اشترك معنا</h3>
-  <div class="row " >
     <div class="col-sm-12" >    
       <p class="text-center ">ادخل بريدك الالكتروني لتحصل علي كل جديد</p>
     </div>
-    <div class="text-center custom-control d-flex align-items-center justify-content-center col-sm-12"  >
-    <div class="input-group ">
-  <input class="form-control" aria-label="With textarea"></input>
-  <div class="input-group-prepend">
-    <span class="input-group-text bg-dark font-weight-bold text-light">اشترك</span>
-  </div>
-</div>
-</div>
-  </div>
+    <div class="d-flex align-items-center justify-content-center pt-3">
+      <input type="email" placeholder="ادخل البريد الالكتروني"  class="form-control  w-25"/>
+      <button class="bg-dark font-weight-bold text-light rounded input-group-text p-3 pr-5 pl-5">اشترك</button>
+    </div>
 </section>
+
+
+
 
 
 <!-- Footer Section Start -->
 <footer>
 
-  <section class="footer-Content p-5">
+  <section class="footer-Content p-4">
     <!-- <div class="row p-xl-1 pr-xl-5">
       <a class="navbar-brand logo pr-xl-5" href="<?=base_url('arabic/');?>"><img  src="<?=base_url('assets/website/arabic/');?>img/logo.png" alt=""></a>
     </div> -->
@@ -75,7 +72,7 @@
 
       
 
-      <div class="col-1">
+      <div class="col-1 footercol1">
         <h4 class="list-inline-item  pt-0">تنويه</h4>
         <a  href="<?=base_url('');?>"><img class="p-xl-4" src="<?=base_url('assets/website/arabic/');?>img/Vector.svg" alt="phone"></a>
       </div>
